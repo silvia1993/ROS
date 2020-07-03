@@ -24,20 +24,25 @@ In order to replicate the results shown in the paper (Tables 1,2) please follow 
       office-home/OfficeHomeDataset_10072016/product
   
 2. Use the python version: Python 3.6.8 
+
    Install all the libreries requested with the command:
+   
    pip3 install -r requirements_ROS.txt 
 
 3. Go into the folder ROS and:
 
     3a. In order to replicate the experiments of Office31 dataset with ResNet-50 (Table 1) run: 
+    
         train_resnet50_office31.sh replacing 
         "/.../" with "/path_in_which_you_save_ROS/"
 
     3b. In order to replicate the experiments of Office31 dataset with VggNet (in Table 1) run: 
+    
         train_vgg_office31.sh replacing 
         "/.../" with "/path_in_which_you_save_ROS/"
     
     3c. In order to replicate the experiments of Office31 dataset with ResNet-50 (in Table 2) run: 
+    
         train_resnet50_officehome.sh replacing 
         "/.../" with "/path_in_which_you_save_ROS/"
     
