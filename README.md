@@ -35,15 +35,15 @@ In order to replicate the results shown in the paper (Tables 1,2) please follow 
     
         train_resnet50_office31.sh replacing 
         "/.../" with "/path_in_which_you_save_ROS/"
-
-    3b. In order to replicate the experiments of Office31 dataset with VggNet (in Table 1) run: 
     
-        train_vgg_office31.sh replacing 
-        "/.../" with "/path_in_which_you_save_ROS/"
-    
-    3c. In order to replicate the experiments of Office31 dataset with ResNet-50 (in Table 2) run: 
+    3b. In order to replicate the experiments of Office31 dataset with ResNet-50 (in Table 2) run: 
     
         train_resnet50_officehome.sh replacing 
+        "/.../" with "/path_in_which_you_save_ROS/"        
+        
+    3c. In order to replicate the experiments of Office31 dataset with VggNet (in Table 1) run: 
+    
+        train_vgg_office31.sh replacing 
         "/.../" with "/path_in_which_you_save_ROS/"
     
     
