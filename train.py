@@ -27,7 +27,7 @@ def get_args():
     parser.add_argument("--ss_classes", "-rc", type=int, default=4, help="Number of classes for the self-supervised task")
 
     #weights used during training
-    parser.add_argument("--ss_weight_source", type=float, default=1.0, help="Weight of the source domain for the ss task (it acts in step1)")
+    parser.add_argument("--ss_weight_source", type=float, default=3.0, help="Weight of the source domain for the ss task (it acts in step1)")
     parser.add_argument("--ss_weight_target", type=float, default=3.0, help="Weight of the target domain for the ss task (it acts in step2)")
     parser.add_argument("--cls_weight_source", type=float, default=1.0, help="Weight for the cls task (it acts in step1 and step2)")
     parser.add_argument("--entropy_weight", type=float, default=0.1, help="Weight for the ss task (it acts in step2)")
