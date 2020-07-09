@@ -1,6 +1,6 @@
 # ROS (Rotation Open Set)
 
-PyTorch official implementation of "On the Effectiveness of Image Rotation for Open Set Domain Adaptation" in European Conference on Computer Vision 2020 (ECCV2020) 
+PyTorch official implementation of "On the Effectiveness of Image Rotation for Open Set Domain Adaptation" in *European Conference on Computer Vision 2020,* **ECCV2020** 
 
 ![Test Image 1](image.jpg)
 
