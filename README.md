@@ -1,6 +1,10 @@
-# ROS
-Rotation Open Set
+# ROS (Rotation Open Set)
 
+Official implementation of "On the Effectiveness of Image Rotation for Open Set Domain Adaptation" (ECCV2020) 
+
+![Test Image 1](image.jpg)
+
+## Experiments
 In order to replicate the results shown in the paper (Tables 1,2) please follow these istructions:
 
 1. Download Office-31 and Office-Home datasets:
@@ -54,3 +58,7 @@ You can also replicate the results obtained for STA_max,STA_sum,OSBP and UAN (Ta
 - OSBP: https://github.com/ksaito-ut/OPDA_BP
 
 - UAN: https://github.com/thuml/Universal-Domain-Adaptation
+
+## Citation
+
+To cite, please use the following reference: 
