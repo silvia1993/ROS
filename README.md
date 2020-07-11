@@ -32,6 +32,8 @@ In order to replicate the results shown in the paper (Tables 1,2) please follow 
    Install all the libreries requested with the command:
    
    pip3 install -r requirements_ROS.txt 
+   
+   Please nota that, for the sake of convenience, we also provide a Dockerfile to directly create a docker container with all the necessary requirements.
 
 3. Go into the folder ROS and:
 
