@@ -1,9 +1,9 @@
 FROM pytorch/pytorch
-MAINTAINER Mohammad Reza Loghmani (loghmani@acin.tuwien.ac.at)
+MAINTAINER Silvia Bucci & Mohammad Reza Loghmani
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -y
 RUN apt-get install -y --upgrade vim git
-WORKDIR /relative-rotation
+WORKDIR /ROS
 COPY . .
 RUN pip install --upgrade pip
 RUN pip install --upgrade -r requirements_ROS.txt
