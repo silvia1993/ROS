@@ -55,9 +55,9 @@ args = get_args()
 orig_stdout = sys.stdout
 rand = np.random.randint(200000)
 
-words = args.folder_txt_files.split('/')
-args.folder_log = words[0]+'/'+words[1]+'/'+words[2]+'/'+'ROS/outputs/logs/' + str(rand)
-args.folder_name = words[0]+'/'+words[1]+'/'+words[2]+'/'+'ROS/outputs/' + str(rand)
+words = args.folder_txt_files.split('/ROS/')
+args.folder_log = words[0]+'/'+'ROS/outputs/logs/' + str(rand)
+args.folder_name = words[0]+'/'+'ROS/outputs/' + str(rand)
 args.folder_txt_files_saving = args.folder_txt_files + str(rand)
 
 gpu = str(args.gpu)
