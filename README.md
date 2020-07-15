@@ -5,7 +5,7 @@ PyTorch official implementation of "On the Effectiveness of Image Rotation for O
 ![Test Image 1](image.jpg)
 
 ## Experiments
-In order to replicate the results shown in the paper (Tables 1,2) please follow these istructions:
+In order to replicate the results shown in the paper (Tables 1,2) please follow these instructions:
 
 1. Download Office-31 and Office-Home datasets:
 
