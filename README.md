@@ -13,17 +13,17 @@ In order to replicate the results shown in the paper (Tables 1,2) please follow 
       https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view
       save the folder as "office" in ROS folder.
       At the end you should have:
-      office/amazon
-      office/webcam
+      office/amazon,
+      office/webcam,
       office/dslr
     
     - Office-Home: 
       https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view
       save the folder as "office-home" in ROS folder.
       At the end you should have:
-      office-home/OfficeHomeDataset_10072016/art
-      office-home/OfficeHomeDataset_10072016/clipart
-      office-home/OfficeHomeDataset_10072016/real_world
+      office-home/OfficeHomeDataset_10072016/art,
+      office-home/OfficeHomeDataset_10072016/clipart,
+      office-home/OfficeHomeDataset_10072016/real_world,
       office-home/OfficeHomeDataset_10072016/product
   
 2. Use the python version: Python 3.6.8 
@@ -41,7 +41,7 @@ In order to replicate the results shown in the paper (Tables 1,2) please follow 
         train_resnet50_office31.sh replacing 
         "/.../" with "/path_in_which_you_save_ROS/"
     
-    3b. In order to replicate the experiments of Office31 dataset with ResNet-50 (in Table 2) run: 
+    3b. In order to replicate the experiments of Office-Home dataset with ResNet-50 (in Table 2) run: 
     
         train_resnet50_officehome.sh replacing 
         "/.../" with "/path_in_which_you_save_ROS/"        
@@ -52,7 +52,7 @@ In order to replicate the results shown in the paper (Tables 1,2) please follow 
         "/.../" with "/path_in_which_you_save_ROS/"
     
     
-You can also replicate the results obtained for STA_max,STA_sum,OSBP and UAN (Tables 1,2) following the instruction of the GitHub repositories proposed by the authors:
+You can also replicate the results obtained for STA_max,STA_sum,OSBP and UAN (Tables 1,2) following the instructions of the GitHub repositories proposed by the authors:
 
 - STA: https://github.com/thuml/Separate_to_Adapt
 
