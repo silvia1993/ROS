@@ -63,3 +63,10 @@ You can also replicate the results obtained for STA_max,STA_sum,OSBP and UAN (Ta
 ## Citation
 
 To cite, please use the following reference: 
+
+@inproceedings{BucciLoghmaniTommasi2020,
+  title={On the Effectiveness of Image Rotation for Open Set Domain Adaptation},
+  author={Silvia Bucci, Mohammad Reza Loghmani, Tatiana Tommasi},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2020}
+} 
