@@ -9,8 +9,7 @@ In order to replicate the results shown in the paper (Tables 1,2) please follow 
 
 1. Download Office-31 and Office-Home datasets:
 
-    - Office-31: (You can find this dataset also in the folder ROS as office.zip)
-      if you want to download it use this link:
+    - Office-31:
       https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view
       save the folder as "office" in ROS folder.
       At the end you should have:
