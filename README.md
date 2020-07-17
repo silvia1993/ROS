@@ -1,4 +1,4 @@
-# ROS (Rotation Open Set)
+# ROS (Rotation-based Open Set)
 
 PyTorch official implementation of "On the Effectiveness of Image Rotation for Open Set Domain Adaptation" in *European Conference on Computer Vision 2020,* **ECCV2020** 
 
