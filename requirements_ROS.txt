@@ -3,5 +3,5 @@ torchvision==0.2.1
 tensorlayer==1.11.0
 tensorflow-gpu==1.14.0
 scipy==1.1.0
-Pillow==6.2.0
+Pillow==8.1.1
 numpy==1.15.4
